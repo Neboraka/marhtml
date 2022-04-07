@@ -1,0 +1,56 @@
+.container {
+    height: 400px;
+    width: 900px;
+    background: #f3edee;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.card{
+    width: 28%;
+    background: white;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.head{
+    padding-top: 50px;
+    font-size: 25px;
+    height: 50px;
+
+}
+.txt{
+    width: 80%;
+    text-align: center;
+    color: gray;
+}
+
+.butt{
+    margin-top: 40px;
+    width: 60%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+}
+.round{
+    color: aqua;
+    font-size: 45px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50% ;
+    border: 1px solid black;
+    background: white;
+    position: absolute;
+    margin-top: -35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
