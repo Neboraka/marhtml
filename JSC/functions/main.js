@@ -121,24 +121,24 @@
 // console.log(najmenshe(array));
 
 
-// let array= [2, 6, 3,8 , 1];
-// function najmenshe(ololo) {
-//     let res = ololo[0]
-//     for (const ololoEl of ololo) {
-//         if (ololoEl<res){
-//             res = ololoEl
-//         }
-//     }
-//     return res
-// }
-// console.log(najmenshe(array));
-
-let array= [2, 6, 3, 8 , 1, 84,20];
-function sum(qqw) {
-    let res = 0
-    for (const qqwEl of qqw) {
-    res = res + qqwEl
+let array= [5, 6, 3,8 , 4];
+function najmenshe(ololo) {
+    let res = ololo[0]
+    for (const ololoEl of ololo) {
+        if (ololoEl<res){
+            res = ololoEl
+        }
     }
     return res
 }
-console.log(sum(array))
+console.log(najmenshe(array));
+
+// let array= [2, 6, 3, 8 , 1, 84,20];
+// function sum(qqw) {
+//     let res = 0
+//     for (const qqwEl of qqw) {
+//     res = res + qqwEl
+//     }
+//     return res
+// }
+// console.log(sum(array))
