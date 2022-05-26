@@ -55,11 +55,12 @@ button.addEventListener('click', function (){
 
     function creatorTable(tr, td, text){
         const table = document.createElement('table')
+        document.body.append(table)
         for (let i = 0; i < tr; i++) {
             const tr = document.createElement('tr')
             table.appendChild(tr)
-            for (let j = 0; j < td.length; j++) {
-                let td = document.createElement('td');
+            for (let j = 0; j < td; j++) {
+                const td = document.createElement('td');
                 td.innerText = `${text}`
                 td.style.border = '2px solid red'
                 tr.appendChild(td)
