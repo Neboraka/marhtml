@@ -1,0 +1,16 @@
+#posts{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: aquamarine;
+    justify-content: space-between;
+
+}
+
+.inndiv{
+    width: 19.8%;
+    border: 1px solid black;
+}
+
+
+
