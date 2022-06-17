@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="@owu.linkpc.net" uuid="f0d6f906-b00f-4652-8ce2-5470a07e6daa">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://owu.linkpc.net:3306</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="test@cluster0.c1q6ssw.mongodb.net" uuid="9c4fc699-c940-44bd-b3c7-fd241efdaa07">
+    <data-source source="LOCAL" name="test@cluster0.c1q6ssw.mongodb.net" uuid="08df59d6-fc35-44f7-9f1a-ef2d5ed6eae9">
       <driver-ref>mongo</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
